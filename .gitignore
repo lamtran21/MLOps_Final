@@ -216,6 +216,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-#data <- this is necessary for dvc to work
-production_batches/*.csv
