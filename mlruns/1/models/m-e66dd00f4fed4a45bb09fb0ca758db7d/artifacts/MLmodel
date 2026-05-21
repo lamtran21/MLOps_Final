@@ -1,0 +1,23 @@
+artifact_path: /Users/aditya/ML_Operations/MLOps_Final/mlruns/1/models/m-e66dd00f4fed4a45bb09fb0ca758db7d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-e66dd00f4fed4a45bb09fb0ca758db7d
+model_size_bytes: 5160471
+model_uuid: m-e66dd00f4fed4a45bb09fb0ca758db7d
+prompts: null
+run_id: d8b64081235d47cf843495b0562eef77
+utc_time_created: '2026-05-21 02:41:10.754483'
