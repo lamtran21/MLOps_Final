@@ -3,7 +3,9 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 from pathlib import Path
 
-MODEL_PATH = Path("models/champion_model.pkl")
+from pathlib import Path
+
+MODEL_PATH = Path(__file__).parent.parent / "models" / "champion_model.pkl"
 
 def load_model():
     with open(MODEL_PATH, "rb") as f:
