@@ -1,5 +1,7 @@
 from dotenv import load_dotenv
-load_dotenv()
+from pathlib import Path
+
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 import io
 import pandas as pd
